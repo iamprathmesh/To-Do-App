@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To Do App</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <h1>To-Do App</h1>
+    <form action="/tasks/" method="post">
+        <input type="text" name="task" id="task" placeholder="Add a new task">
+        <button type="submit">Add Task</button>
+    </form>
+    <ul>
+        <% todos.forEach(function(todo) { %>
+            <li>
+                <form action="/tasks/<%= todo._id %>/update" method="post" style="display: inline;">
+                    <input type="text" name="task" id="task" value="<%- todo.task %>" />
+                    <button type="submit">Update</button>
+                </form>
+                <form action="/tasks/<%= todo._id %>/complete" method="post" style="display: inline;">
+                    <button type="submit">
+                        <%= todo.is_completed ? 'Uncomplete' : 'Complete' %>
+                    </button>
+                </form>
+                <form action="/tasks/<%= todo._id %>/delete" method="post" style="display: inline;">
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+            <% }); %>
+    </ul>
+</body>
+
+</html>
