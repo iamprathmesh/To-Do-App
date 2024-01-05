@@ -23,7 +23,7 @@ Now, let us go back to our code editor and open the .env file that is residing i
 ⚠️Once you have populated the db_connection key in the .env file, replace the <password> with the password you created when creating a new user in MongoDB Atlas. Your final .env file should look like the code shown below.
 
 db_connection="mongodb+srv://username:mypassword@databasename.zcz5yxc.mongodb.net/?retryWrites=true&w=majority"
-PORT=3000
+ PORT=3000
 
 For Gitpod users, ⚠️ there's an additional step that you need to do. In the sidebar, look for Network Access. Then, click on the ADD IP ADDRESS button. In the modal, click on the ALLOW ACCESS FROM ANYWHERE button, and then click Confirm. Doing so will allow Gitpod to connect to your database. 
 
