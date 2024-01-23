@@ -4,7 +4,7 @@ Our application's interaction with databases takes center stage. The Back End se
 
 # Deployment of Database
 In this step, we will create our own database instance. Click on the “Create” button on the home page. Then, select the M0 FREE tier. For the region, you may want to choose the one nearest to you. As you scroll down, set the name.
-
+    
 Once you have done the necessary configurations, click on the “Create” Button. Since we are using a FREE tier, no credit cards are needed. However, using the Free Tier comes with various drawbacks such as sharing the computing process with other instances and limited storage. However, MongoDB Atlas is generous enough to give us a strong head start to let us learn MongoDB.
 
 Next, we will need to create a new account which will only be applied to our database. This credential is what we will use to connect with our database. Please name your username and password as such. You may choose to use your own username and password as long as you remember them later.
