@@ -2,7 +2,7 @@
 Description
 Our application's interaction with databases takes center stage. The Back End serves as the middleman through which data is transferred to and fetched from the database, allowing a seamless flow of information. In software development, there are two prominent types of databases emerging: Relational Databases, characterized by Structured Query Language (SQL), and Non-Relational Databases, often referred to as NoSQL databases. We will dive deeper into databases.
 
-# Deployment of Database
+# Deployment of Database   
 In this step, we will create our own database instance. Click on the “Create” button on the home page. Then, select the M0 FREE tier. For the region, you may want to choose the one nearest to you. As you scroll down, set the name.
     
 Once you have done the necessary configurations, click on the “Create” Button. Since we are using a FREE tier, no credit cards are needed. However, using the Free Tier comes with various drawbacks such as sharing the computing process with other instances and limited storage. However, MongoDB Atlas is generous enough to give us a strong head start to let us learn MongoDB.
